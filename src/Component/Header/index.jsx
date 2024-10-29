@@ -1,9 +1,8 @@
-import React from "react";
 import "./style.css";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{display:"flex"}}>
       <div className="header_content">
         <h3>3D game Dev</h3>
 
@@ -15,7 +14,7 @@ const Header = () => {
 
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard.
+          industry. Lorem Ipsum has been the industry&apos;s standard.
         </p>
 
         <a href="#">Get more details</a>
@@ -23,9 +22,9 @@ const Header = () => {
 
       <div className="header_img">
         <img id="joyStick" src="./img/joy_stick 1.png" />
-        {/* <img id="img1" src="./img/img1.png" />
+        <img id="img1" src="./img/img1.png" />
         <img id="img2" src="./img/img2.png" />
-        <img id="img3" src="./img/img3.png" /> */}
+        <img id="img3" src="./img/img3.png" />
       </div>
     </div>
   );
