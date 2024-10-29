@@ -1,0 +1,78 @@
+header {
+    margin-block: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+  }
+  .header_content {
+    width: 650px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-inline: 50px;
+    margin-left: 150px;
+  }
+  .header_content h3 {
+    color: #fa9021;
+    font-size: 25px;
+  }
+  .header_content h1 {
+    font-size: 60px;
+  }
+  .header_content p {
+    font-size: 18px;
+  }
+  .header_content a {
+    width: 180px;
+    height: 50px;
+    background-color: #fa9021;
+    border-radius: 45px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fa9021;
+  }
+  .header_content a:hover {
+    background-color: wheat;
+    color: #ffa552;
+    border: 2px solid wheat;
+  }
+  .header_img {
+    width: 900px;
+    position: relative;
+    background-color: blue;
+  }
+  #joyStick {
+    position: absolute;
+    height: 700px;
+    top: -110px;
+    right: 0px;
+    background-color: red;
+    clip-path: polygon(
+      13% 0,
+      31% 0,
+      100% 35%,
+      100% 69%,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      0 30%,
+      9% 29%
+    );
+  }
+  #img1 {
+    position: absolute;
+    left: 200px;
+  }
+  
+  #img2 {
+    position: absolute;
+    top: 250px;
+  }
+  
+  #img3 {
+    position: absolute;
+    right: 200px;
+  }
