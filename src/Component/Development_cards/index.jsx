@@ -4,12 +4,14 @@ const Development_cards = () => {
 
     const arr = [
         {
-            img:"./img/smartphone.png",
+          id:0,
+            img:"/img/smartphone.png",
             content:"Mobile Game Development"
 
         },
         {
-            img:"./img/Group.png",
+          id:1,
+            img:"/img/Group.png",
             content:"Mobile Game Development"
 
         }
@@ -36,9 +38,9 @@ const Development_cards = () => {
 
         <div className="development_card">
 
-            {arr.map(({img,content})=>{
+            {arr.map(({id,img,content})=>(
 
-                <div>
+                <div key={id}>
                     <div className="img_part">
                     <img src={img} />
                     </div>
@@ -52,7 +54,7 @@ const Development_cards = () => {
                     </div>
                 </div>
 
-            })}
+            ))}
           
 
         </div>

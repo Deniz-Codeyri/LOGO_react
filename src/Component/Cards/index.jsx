@@ -43,12 +43,13 @@ const Cards = () => {
                 <img className="cards_img" src={img}  alt="" />
                 <img className="cards_icon" src={icon}/>
                 <h2>{text}</h2>
+                </div>
             ))}
-
+            
         </div>
 
     </div>
-  )
+   )
 }
 
 export default Cards;

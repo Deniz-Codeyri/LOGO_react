@@ -2,7 +2,7 @@
 import Header from './Component/Header'
 import JustImg from './Component/JustImg'
 import Development_cards from './Component/Development_cards'
-// import Cards from './Component/Cards'
+import Cards from './Component/Cards'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Header/>
-    {/* <Cards/> */}
+    <Cards/>
     <JustImg/>
     <Development_cards/>
     </>
