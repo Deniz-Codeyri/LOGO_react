@@ -11,6 +11,10 @@ nav{
     font-weight: bold;
     align-items: center;
 }
+.a_tags:hover{
+    color: #FA9021;
+    font-size: 25px;
+}
 button{
     background-color: #FA9021;
     border-radius: 12px;

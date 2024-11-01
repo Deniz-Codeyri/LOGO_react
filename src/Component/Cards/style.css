@@ -1,0 +1,9 @@
+.cards_header{
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.cards_header_text{
+    
+}

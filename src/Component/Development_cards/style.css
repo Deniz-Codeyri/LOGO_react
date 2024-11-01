@@ -1,0 +1,70 @@
+.development_section {
+    background-image: url("./img/rectangle.png");
+    padding-inline: 50px;
+    background-size: cover;
+  }
+  .development_content {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 70px;
+  }
+  .development_content h1 {
+    font-size: 25px;
+    text-align: center;
+    transition: all 1s;
+  }
+  .development_content p {
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s;
+  }
+  .development_content h1:hover {
+    font-size: 40px;
+    color: #fa9021;
+  }
+  .development_content p:hover {
+    font-size: 20px;
+    color: #fa9021;
+  }
+  .development_cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .development_card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all 1s;
+  }
+  .development_card:hover {
+    border: 5px solid #fa9021;
+    background-color: #ffa552;
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+  }
+  
+  .development_card .img_part {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .development_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
